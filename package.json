@@ -1,0 +1,25 @@
+{
+  "name": "@james-bennett-295/utils",
+  "version": "1.0.0",
+  "description": "Utilities.",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "rm -rf ./build/ && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-bennett-295/npm-utils.git"
+  },
+  "author": "James Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james-bennett-295/npm-utils/issues"
+  },
+  "homepage": "https://github.com/james-bennett-295/npm-utils#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2"
+  }
+}
